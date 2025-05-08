@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Step Page Enhanced</title>
+  <link rel="stylesheet" href="estilos2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-hands-helping"></i> How to Make Something Cool</h1>
+  </header>
+
+  <section class="steps">
+    <div class="step">
+        <h3>1. Choose a Business Structure</h3>
+        <p>Select the appropriate legal structure (e.g., SAS, S.A., Ltda).</p>
+        <div class="media">
+            <!-- Replace with your image or video -->
+            <img src="imagenes/image1.jpg" alt="Business Structure" />
+            <!-- OR -->
+            <!-- <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe> -->
+        </div>
+    </div>
+<div class="step">
+    <h3>2. Register the Company Name</h3>
+    <p>Verify and register your company name with the Chamber of Commerce.</p>
+    <div class="media">
+        <img src="imagenes/imagen4.png" alt="Register Name" />
+    </div>
+</div>
+    <div class="step">
+        <h3>3. Draft the Bylaws (Estatutos)</h3>
+        <p>Create the company bylaws, which include the purpose, partners, capital, and governance structure.</p>
+        <div class="media">
+            <img src="imagenes/imagen3.jpg" alt="Register Name" />
+        </div>
+
+    </div>
+    <div class="step">
+        <h3>4. Register with the Chamber of Commerce</h3>
+        <p>Submit your bylaws and required documents to obtain the Certificate of Incorporation.</p>
+        <div class="media">
+            <img src="imagenes/imagen2.png" alt="Register Name" />
+        </div>
+
+    </div><div class="step">
+        <h3>5. Obtain the Tax ID (RUT)</h3>
+        <p>Register with the DIAN (Tax Authority) to obtain the company’s tax ID (RUT).</p>
+        <div class="media">
+            <img src="imagenes/imagen15.png" alt="Register Name" />
+        </div>
+
+    </div><div class="step">
+        <h3>6. Open a Corporate Bank Account</h3>
+        <p>Use the incorporation documents and RUT to open a corporate bank account.</p>
+        <div class="media">
+            <img src="imagenes/imagen6.jpg" alt="Register Name" />
+        </div>
+        </div>
+    <div class="step">
+        <h3>7. Register for Local Taxes</h3>
+        <p>Register with your local municipality for ICA (industry and commerce tax).</p>
+        <div class="media">
+            <img src="imagenes/imagen7.png" alt="Register Name" />
+        </div>
+    </div>
+    <div class="step">
+        <h3>8. Comply with Labor Regulations</h3>
+        <p>Enroll employees in health, pension, and labor risk systems.</p>
+        <div class="media">
+            <img src="imagenes/imagen8.png" alt="Register Name" />
+        </div>
+  </section>
+
+  <section class="faq">
+    <h2><i class="fas fa-question-circle"></i>Recursos útiles</h2>
+    <div class="faq-item">
+      <a href="https://www.ccb.org.co/">Cámara de Comercio de Bogotá</a>
+    </div>
+    <div class="faq-item">
+      <a href="https://www.ccb.org.co/">DIAN - Autoridad Fiscal</a>
+    </div>
+    <div class="faq-item">
+      <a href="https://www.ccb.org.co/">Ministerio de Trabajo</a>
+    </div>
+  </section>
+
+  <section class="carousel">
+    <h2> ONU</h2>
+    <div class="slider">
+      <img src="imagenes/imagen12.jpg" alt="Gallery 1" />
+      <img src="imagenes/imagen9.jpg" alt="Gallery 2" />
+      <img src="imagenes/imagen10.jpg" alt="Gallery 3" />
+      <img src="imagenes/imagen11.jpg" alt="Gallery 4" />
+    </div>
+  </section>
+
+  <footer>
+<h3>Jeimy Juliana Vega Sánchez</h3>
+    <p>&copy; 2025 Visual Guide. Make it beautiful.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+</html>
